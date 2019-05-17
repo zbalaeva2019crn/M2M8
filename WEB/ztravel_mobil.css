@@ -427,7 +427,7 @@ li{
 }
 #oferta2 h4{
   color: #8A0808;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-top: 0;
 
 }
@@ -442,7 +442,7 @@ li{
 #oferta h3{
   font-family: Avenir Next Condensed ;
   float: left;
-  margin:30px 15px;
+  margin:-100px 120px;
   color: white;
   font-size: 6.5em;
 }
