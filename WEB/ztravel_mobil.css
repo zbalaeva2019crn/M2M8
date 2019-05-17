@@ -1,0 +1,463 @@
+
+@media only screen and (max-width: 480px)
+{
+
+  #brsuperior{
+    background-color: #B40404;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    font-size: 0.8em;
+    float: right;
+
+  }
+
+  #logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    background-color: green;
+    text-align: center;
+  }
+
+  #logo img{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #banner{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: left;
+
+  }
+  #banner img{
+    width: 100%;
+  }
+  .animacion{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .animacion img {
+    position: relative;
+    margin: -5px;
+    padding: 0;
+    width: 100%;
+    height:auto ;
+  }
+  .animacion2 {
+    position:absolute;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+  }
+    .animacion2 img {
+      position: relative;
+      margin: -5px;
+      padding: 0;
+      width: 100%;
+      height:auto ;
+
+      }
+
+
+
+
+  .primer{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin: 0px;
+    background-image: url(fotos/c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .segon{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin:0px;
+
+    background-image: url(fotos/IMG_0963.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .tercer{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:0;
+    background-image: url(fotos/PHOTO-2019-05-07-19-31-50.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .quart{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin-top: -5px;
+    background-image: url(fotos/IMG-5570.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .cinc{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:-5px;
+    background-image: url(fotos/PORTADA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .sis{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:0px;
+    background-image: url(fotos/LaRambla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .set{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:0px;
+    background-image: url(fotos/IMG-5563.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .vuit{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:0px;
+    background-image: url(fotos/IMG_9509.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nou{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin:0px;
+    background-image: url(fotos/IMG-5738.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.float{
+height: 100%;
+width: 100%;
+float: left;
+margin-left: 67px;
+margin-top: 10px;
+}
+
+.container{
+  position: relative;
+  top: 0;
+  width: 100%;
+  top:-30px;
+  left: 3px;
+}
+#blocs{
+  background-color: ;
+  width: 100%;
+  margin-top: 1200px;
+
+  padding-bottom: 0px;
+}
+.image{
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 100%;
+  left: -70px;
+  right: 0;
+  background-color: rgba(20,20,20,0.9);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: 1s ease;
+
+}
+
+.image:hover .overlay {
+  bottom: 0;
+  height: 200px;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  overflow-y: auto;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hover:hover{
+	color: red;
+}
+
+.menu2{
+background-color: magenta;
+position: relative;
+width: 600px;
+display:grid;
+}
+.menu2 li{
+  background-color: orange;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+
+.menu2 li:hover > .secundari{
+  display: inline-block;
+}
+#cajatexto{
+width: 60%;
+height:300px;
+background-color: #E6E6E6;
+position: relative;
+left: 20%;
+}
+
+p{
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+}
+#fondo{
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: -60px;
+}
+
+h4{
+  text-align:center ;
+  font-size: 3em;
+  top: 40px;
+}
+
+#lista{
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  display: inline;
+  left: 20px;
+  position: relative;
+  top:-150px;
+}
+
+ul img{
+  top: 40px;
+  width: 400px;
+  margin: -50px;
+}
+
+#imgblog{
+  background-color: red;
+  top: px;
+  position: relative;
+}
+#lista li{
+  position: relative;
+}
+
+.direccion{
+  background-color: #E6E6E6;
+  width: 50%;
+  padding-top: 30px;
+  float: left;
+  line-height: 30%;
+  height: 300px;
+
+}
+
+input{
+  width: 80%;
+  height:31px;
+  margin: 10px;
+  left: 100px
+}
+
+h5{
+
+
+
+  font-size: 1em;
+  position: relative;
+  text-align: center;
+}
+
+#registre{
+background-color: #E6E6E6;
+width: 50%;
+float: left;
+background-position: center;
+top: px;
+
+}
+
+form{
+  background-color: ;
+  background-position: center;
+  margin-left: 20%;
+}
+#inform{
+  height: 50px;
+  width: 50%;
+}
+
+  #inform li{
+  font-size:0.8em;
+  line-height: 120%;
+  margin-top: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.check:checked ~ #menu{
+  position: fixed;
+  left: 0;
+  transition: 1s;
+}
+
+#burguer{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+  left: 10px;
+}
+
+#burguer li{
+  width: 30px;
+  height: 5px;
+  background-color: #FFF;
+  margin: 10px 0;
+}
+
+li{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+
+#menu{
+  background: pink;
+  width: 95%;
+  height: 150px;
+  left: -100%;
+  position: absolute;
+  top: 60px;
+  padding-left: 5%;
+  padding-bottom: 5%
+}
+
+.ultimo{
+  background-color: #424242;
+  width: 100%;
+  height: 5%;
+  margin-top: 100px;
+}
+
+#copyright li{
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 0.2em;
+  color: white;
+}
+#oferta{
+  width:90%;
+  height: 250px;
+  background-color: #8A0808;
+ margin: 30px auto;
+}
+
+#oferta h4{
+  color: white;
+  font-size: 2.5em;
+  padding-top: 30px;
+}
+#oferta2{
+  background-color: white;
+  width: 40%;
+  height: 30px;
+  margin: -40px auto;
+}
+#oferta2 h4{
+  color: #8A0808;
+  font-size: 1.5em;
+  padding-top: 0;
+
+}
+#oferta h1{
+  font-family: Avenir Next Condensed ;
+  float: left;
+  margin-left: 15px;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 60px;
+}
+#oferta h3{
+  font-family: Avenir Next Condensed ;
+  float: left;
+  margin:30px 15px;
+  color: white;
+  font-size: 6.5em;
+}
+.restaurants{
+  background-color: ;
+  width: 100%;
+  height: 50%;
+  margin-top:x0px;
+}
+.restaurants h2{
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+.direccion p{
+  font-size: 1.2em;
+}
+}

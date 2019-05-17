@@ -1,0 +1,42 @@
+@media only screen and (min-width: 481px)
+{
+
+.texto{
+  text-align: left;
+  font-size: 1.5em;
+  position: relative;
+}
+#tit{
+  background-color: #E6E6E6;
+  width: 105%;
+  margin: 50px 0;
+  margin-left: -10px;
+  position: relative;
+}
+#brsuperior{
+  background-color: #B40404;
+  height: 70px;
+  margin-top:-25px;
+  padding: 0;
+  color: white;
+
+}
+#restaurants{
+  width: 100%;
+  hyphens: 50px;
+  background-color: pink;
+}
+#logomenu{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:red;
+  width: 200px;
+
+}
+#logo img{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+}
