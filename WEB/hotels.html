@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>hotels</title>
+  <title>Travelz</title>
   <link rel="stylesheet" type="text/css" href="ztravel.css">
-  <link rel="stylesheet" type="text/css" href="travel_secció.css">
-</head>
-<body>
+  <link rel="stylesheet" type="text/css" href="ztravel_mobil.css">
+
+  </head>
+  <body>
   <div id="brsuperior">
     <h1>Truca'ns!623-6417 / WhatsApp 603. 338. 102</h1>
   </div>
   <div id="logomenu">
     <div id="logo">
-      <img src="zt.png"/>
+      <a href="file:///Users/zemfira/Desktop/WEB/ztravel.html"><img src="zt.png"/></a>
     </div>
+  </div>
+    <div id="nav">
+      <input type="checkbox" class="check">
+      <ul id="burguer">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+
     <ul id="menu">
        <li class="plegable"><a href="info.html">Sobre nosaltres</a></li>
        <li class="plegable"><a href="">Les nostres divisions
@@ -28,13 +40,39 @@
        <li class="plegable"><a href="contacte.html" >Contacte</a></li>
      </ul>
   </div>
+
+
+  <div id="total">
     <div id="hotel">
     <p id="tit">Hotels</p>
     <p class="texto">HOTEL+ENTRADA TIBIDABO</p>
     <div class="info">
-    <p class="texto">Si busques un lloc econòmic, a prop dels transports públics i en un dels carrers més popular com és la Rambla aquest és l'hotel que busques.</p>
+    <img src="fotos/hotelEntrada.jpg">
     </div>
+    <div class="rambla">
+    <p id="ruta">HOTEL+RUTA</p>
+    <img src="fotos/rutarambla.jpg">
+    </div>
+    </div>
+    <div class="sagrada">
+    <p id="rtsagrada">HOTEL+RUTA</p>
+    <img src="fotos/rutasagrada.jpg">
+    </div>
+  </div>
+  <div id="reserva">
+      <img src="fotos/hotelfto.jpg">
+  </div>
+  <div id="regihot">
+     <h5>Reserva ya amb nosaltres:</h5>
+     <form>
+       <input type="text" name="barri" placeholder="Indica barri "></br>
 
+       <input type="datetime-local" name="data" placeholder="Indica l'hora d'arribada"></br>
+       <div id="checkbox">
+
+     </div>
+     <input id="n" type="button" value="ENVIAR">
+   </form>
   </div>
 </body>
 </html>

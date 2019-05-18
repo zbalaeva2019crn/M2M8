@@ -1,12 +1,17 @@
 
 @media only screen and (max-width: 480px)
 {
+  body{
+    margin: 0;
+    padding: 0;
+  }
 
   #brsuperior{
     background-color: #B40404;
     height: 70px;
     margin: 0;
     padding: 0;
+    width: auto;
   }
 
   h1{
@@ -311,12 +316,7 @@ ul img{
 
 }
 
-input{
-  width: 80%;
-  height:31px;
-  margin: 10px;
-  left: 100px
-}
+
 
 h5{
 
@@ -330,6 +330,7 @@ h5{
 #registre{
 background-color: #E6E6E6;
 width: 50%;
+height: 329px;
 float: left;
 background-position: center;
 top: px;
@@ -353,6 +354,19 @@ form{
   padding: 0;
   text-align: center;
 }
+#nav{
+
+}
+.check{
+  position: absolute;
+  width: 50px;
+  height:50px;
+  margin: 10px;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  opacity: 0;
+}
 
 .check:checked ~ #menu{
   position: fixed;
@@ -369,7 +383,7 @@ form{
 }
 
 #burguer li{
-  width: 30px;
+  width: 40px;
   height: 5px;
   background-color: #FFF;
   margin: 10px 0;
@@ -385,20 +399,46 @@ li{
 
 #menu{
   background: pink;
-  width: 95%;
+  width: 70%;
   height: 150px;
   left: -100%;
   position: absolute;
   top: 60px;
-  padding-left: 5%;
-  padding-bottom: 5%
-}
+  padding-left: 0px;
+  z-index: 1;
 
+}
+a{
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+a:link{
+  color: #FFF;
+}
+a:visited{
+  color: #FFF;
+}
+a:hover{
+  color: #FFF;
+}
+a:active{
+  color: #FFF;
+}
 .ultimo{
   background-color: #424242;
   width: 100%;
   height: 5%;
-  margin-top: 100px;
+  margin-top: px;
+}
+#copyright{
+  background-color: red;
+  display: inline-block;
+  margin: 0px;
+  font-size: 0.2em;
+  color: white;
+  margin-top: 120px;
+
 }
 
 #copyright li{
@@ -460,4 +500,59 @@ li{
 .direccion p{
   font-size: 1.2em;
 }
+#ruta p{
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+  width: 300px;
+}
+#tit{
+  background-color: #E6E6E6;
+  width: 100%;
+  font-size: 2em;
+}
+.info img{
+  width: 100%;
+  margin: 23px 0px 0 30px;
+  float:left;
+}
+.rambla img{
+  width: 100%;
+  margin: 0 30px 20px;
+  float:left;
+}
+.rambla p{
+margin: 0 0 0 -66px;
+font-size: 1.5em;
+}
+#ruta p{
+
+}
+.info{
+  margin-top:-30px;
+}
+.sagrada img{
+  width: 100%;
+  margin: 0 30px 20px ;
+  float: left;
+}
+#total{
+  margin:0 0 0 50px;
+}
+#reserva img{
+  width: 100%;
+  height: 100%;
+  margin: 0 60px;
+}
+#regihot{
+  width: 90%;
+  height: 15%;
+  background-position: center;
+  position: absolute;
+  margin: -152px 0px 0 60px;
+}
+#regihot h5{
+margin: 21px 128px 0 0;
+}
+
 }
