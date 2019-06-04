@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="Morester">
+    <title>Transform</title>
+    <style>
+       div{
+         width:200px;
+         height:200px;
+         margin:50px;
+         background-color:pink;
+         transition:all 1s ease-in 1s;
+        transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: ease-out;
+        transition-delay: 0.5s;
+       }
+
+       .rotate:hover{
+         -webkit-transform: rotate(30deg);
+         background-color:yellow;
+
+
+       }
+
+       .rotateY:hover{
+         -webkit-transform:rotateY(30deg);
+       }
+
+
+
+       .translate:hover{
+         -webkit-transform: translate(100px, 0);
+}
+
+       .skew:hover{
+         -webkit-transform: skew(330deg,0);
+       }
+
+       .scale:hover {
+         -webkit-transform: scale(0.5)
+       }
+
+    </style>
+  </head>
+  <body>
+    <div class="rotate">
+      <h3>Rotate</h3>
+    </div>
+    <div class="rotateY">
+      <h3>RotateY</h3>
+    </div>
+    <div class="translate">
+      <h3>Translate</h3>
+    </div>
+    <div class="skew">
+      <h3>Skew</h3>
+    </div>
+    <div class="scale">
+      <h3>Scale</h3>
+    </div>
+  </body>
+</html>

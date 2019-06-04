@@ -1,0 +1,78 @@
+body{
+margin: 0 auto;
+
+}
+.contenidor{
+  width: 1680px;
+  margin: 0 auto;
+}
+.block{
+  box-shadow: 7px 5px #BDBDBD;
+  background-color: black ;
+  width: 410px;
+  height: auto;
+  margin: 10px;
+  float: left;
+  color: white;
+
+}
+.primero{
+  height: 390px;
+  width: 390px;
+  margin: 10px;
+}
+.segundo{
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  float: left;
+}
+.tercero{
+  height: 90px;
+  width: 300px;
+  margin: 5px;
+  float: left;
+  font-size: 30px;
+}
+.cuarto{
+  height: 40px;
+  width: 405px;
+  margin: 5px;
+  clear: both;
+}
+.quinto{
+  height: 200px;
+  width: 405px;
+  margin: 5px;
+}
+.sexto{
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  text-align: right;
+}
+.septimo{
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.septimo li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+
+
+.cover{
+  height: 400px;
+  width: 410px;
+}
+.foto{
+  height: 80px;
+  widht:80px;
+  border-radius: 500px;
+}

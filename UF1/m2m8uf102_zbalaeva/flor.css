@@ -1,0 +1,326 @@
+body{
+  background-color: #3af;
+  margin: 0;
+  padding: 0;
+}
+.lluna{
+  width: 200px;
+  height: 200px;
+  background-color: ;
+  border-radius: 100px;
+  box-shadow: inset 50px 50px 0 yellow;
+  transform: rotate(160deg);
+  position: absolute;
+}
+
+#nuvol{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 250px 250px  150px 150px;
+    position: absolute;
+  left: 500px;
+    border-radius: 100%;
+
+    animation-name: nubol;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    z-index: 5;
+
+  }
+  @keyframes nubol{
+    0%{
+    top:0;
+    left: 0;
+    }
+    25%{
+      top:60px;
+      left: 100px;
+    }
+    50%{
+      top:60px;
+      left: 1000px;
+    }
+}
+#nuvol::after{
+  content: "";
+  background-color: white;
+  padding: 50px 70px;
+  border-radius: 100%;
+    position: absolute;
+  left: 140px;
+  top: 20px;
+}
+#nuvol::before{
+  content: "";
+  background-color: white;
+  padding: 55px 75px;
+  border-radius:  75px;
+  position: absolute;
+  left: -30px;
+  top:70px;
+}
+#nuvol1{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 250px 250px  150px 150px;
+    position: absolute;
+  left: 70%;
+    border-radius: 100%;
+
+    animation-name: nubol1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    z-index: 5;
+
+  }
+  @keyframes nubol1{
+    0%{
+    top:0;
+    right: 0;
+    }
+    25%{
+      top:0px;
+      left: 100px;
+    }
+    50%{
+      top:0px;
+      right: 1000px;
+    }
+}
+#nuvol1::after{
+  content: "";
+  background-color: white;
+  padding: 50px 95px;
+  border-radius: 100%;
+    position: absolute;
+  left: 160px;
+  top: 60px;
+}
+#nuvol1::before{
+  content: "";
+  background-color: white;
+  padding: 55px 75px;
+  border-radius:  75px;
+    position: absolute;
+
+
+
+
+}
+.flor{
+  position: absolute;
+ top: 400px;
+ right: 50%;
+  animation-name: flor;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  z-index: 5;
+
+}
+@keyframes flor{
+  from{
+    transform: rotate(0deg);
+    transform-origin: 5px 0px;
+  }
+  to{
+    transform: rotate(360deg);
+    transform-origin: 0;
+  }
+
+}
+.petal{
+  width: 100px;
+  height: 100px;
+  background-color: #FE2EF7;
+  border-radius: 100px 0 100px 0;
+  top: 90px;
+  position: absolute;
+  z-index: 5;
+  transform: translateY(-100px) rotate(300deg);
+  transform-origin: 0 100px;
+
+}
+.centre{
+  width: 50px;
+  height: 50px;
+  background-color: #8A0829;
+  border-radius: 25px;
+  position: absolute;
+  top: 70px;
+
+  left: -28px;
+  margin: 0;
+  padding: 0;
+  z-index: 7;
+
+
+
+}
+.p2{
+  transform: translateY(-100px) rotate(60deg);
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-100px) rotate(120deg);
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-100px) rotate(180deg);
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-100px) rotate(240deg);
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-100px) rotate(300deg);
+  transform-origin: 0 100px;
+
+}
+.p6{
+  transform: translateY(-100px) rotate(360deg);
+  transform-origin: 0 100px;
+
+}
+.triangulo{
+
+width: 0;
+height: 0;
+
+border-right: 400px solid transparent;
+border-top: 100px solid transparent;
+border-left: 400px solid transparent;
+border-bottom: 440px solid #f0ad4e;
+
+  position: absolute;
+left: 300px;
+bottom: 0px;
+z-index: 0;
+
+
+}
+.triangulo1{
+width: 0;
+height: 0;
+
+border-right: 300px solid transparent;
+border-top: 70px solid transparent;
+border-left: 300px solid transparent;
+border-bottom: 400px solid yellow;
+  position: absolute;
+top: ;
+left:0 ;
+bottom: 0px;
+z-index: 0;
+
+}
+.triangulo2{
+width: 0;
+height: 0;
+
+border-right: 400px solid transparent;
+border-top: 70px solid transparent;
+border-left: 400px solid transparent;
+border-bottom: 600px solid yellow;
+  position: absolute;
+
+
+
+float: right;
+bottom: 0px;
+right: 0px;
+
+
+}
+#formiga{
+background-color: ;
+bottom: 10px;
+position: absolute;
+index:500;
+
+
+
+
+
+animation-name: formiga;
+animation-duration: 7s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+
+
+}
+@keyframes formiga{
+0%{
+bottom:0px;
+left: 0px;
+}
+100%{
+  bottom:15px;
+  left: 100%;
+}
+
+
+
+
+
+
+}
+.circulo1{
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50px 30px 30px 50px;
+  bottom: 10px;
+
+}
+.circulo2{
+  width: 60px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50px ;
+
+margin: 0;
+padding: 0;
+bottom: 10px;
+
+  position: absolute;
+left: 45px;
+
+}
+.circulo3{
+  width: 45px;
+  height: 40px;
+  background-color: black;
+  border-radius: 25px ;
+margin: 0;
+padding: 0;
+
+  position: absolute;
+  left: 90px;
+bottom: 15px;
+
+}
+.c1{
+  width: 6px;
+  height: 50px;
+  background-color: black;
+  top:-45px;
+  position: absolute;
+  left: 5px;
+  transform: rotate(-30deg);
+}
+
+.c2{
+  width: 6px;
+  height: 50px;
+  background-color: black;
+  top:-40px;
+  position: absolute;
+  left: 35px;
+  transform: rotate(10deg);
+}
