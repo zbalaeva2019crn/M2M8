@@ -1,0 +1,119 @@
+body{
+margin: 0;
+padding: 0;
+}
+#principio{
+  background-color: #696969;
+  width: 100%
+  margin:0;
+  padding:0;
+  height: 10%;
+}
+#principio p{
+  margin-left: 100px;
+  padding: 12px;
+  display: inline-block;
+  height: 350px;;
+  text-align: center;
+  font-size: 0.9em;
+  color: white;
+}
+form{
+
+display:inline;
+}
+input{
+  height: 30px;
+  width: 20%;
+  border-radius: 5px;
+
+}
+#principio{
+  background-color: #696969;
+}
+#dos{
+  background-color: #000000;
+  color: white;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+}
+#menu li{
+  display: inline;
+  margin: 0 50px;
+  color: white;
+
+}
+#menu{
+  height: 30px;
+  margin: 0;
+  color: white;
+}
+.tres{
+  color: white;
+}
+#cuatro{
+  background-color: #DCDCDC;
+  text-align: center;
+  line-height: 3px;
+  padding: 50px;;
+  margin:0px 0;
+}
+#titulo{
+  font-size: 2em;;
+}
+h1{
+  line-height: 15px;
+  font-size: 4em;
+}
+#buy{
+  margin-left: 5px;
+
+}
+#t{
+  display: inline;
+  line-height: 20px;
+}
+#buy li{
+  display: inline;
+  margin-left: 15px;
+}
+.azul{
+  color: #00BFFF;
+}
+img{
+  background-position: center;
+  margin:
+}
+#kor{
+  margin-top:  50px;
+  background-color: red;
+  width: 50%;
+  height: 500px;
+
+}
+#kor p{
+
+  margin: 0px;
+  margin-left: 70px;
+  padding: 0px;
+  height: 350px;;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  line-height: 3px;
+}
+#Zema p{
+  padding: 30px;
+  margin: 0px;
+  text-align: left;
+}
+#z li{
+  display: inline-block;
+  background-color: red;
+  display: inline-block;
+  width: 15%;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px 0;
+}

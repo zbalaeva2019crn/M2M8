@@ -1,0 +1,313 @@
+body{
+  background-color: #FFF;
+  color:#666;
+  margin: 0;
+  padding:0;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+h1,h2{
+
+    width:400px;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+h1{
+  font-size: 2.5em;
+  line-height: 1em;
+}
+h2{
+  font-size: 2em;
+  line-height: 1em;
+}
+p{
+  width:400px;
+}
+ul{
+  width: 400px;
+}
+li{
+  list-style-type:none;
+}
+div{
+  padding-left: 50px;
+      overflow: hidden;
+}
+    #primer{
+      background-color: #FFF;
+    }
+    #primer img{
+      padding-top: 15px;
+    }
+    #menu{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      width: 93%;
+      text-align: right;
+      display: inline-block;
+    }
+    #menu li{
+      display: inline;
+      margin: 0 10px;
+    }
+    #segon{
+      background-color: #333;
+    }
+    #segon h1{
+
+      width: 30%;
+      display: inline-block;
+      vertical-align: middle;
+
+      }
+        #segon div{
+
+          width: 30%;
+          display: inline-block;
+          vertical-align: middle;
+          padding-left: 5%;
+
+      }
+      #segon ul{
+
+        width: 20%;
+        display: inline-block;
+        vertical-align:middle;
+        padding-left: 10%;
+}
+#tercer{
+  background-image: url("img/01_coneix.png");
+background-repeat: no-repeat;
+background-position: 500px;
+  height:550px;
+  background-color: #6C3;
+  color: #333;
+}
+  #quart{
+    background-image: url("img/02_lloc.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+    height:641px;
+    background-color: #FFF;
+    color: #6C3;
+}
+#cinque{
+  background-image: url("img/03_util.png");
+background-repeat: no-repeat;
+background-position: 500px;
+  height:500px;
+  background-color: #333;
+  color: #CCC;
+}
+#sise{
+  background-image: url("img/01_coneix.png");
+background-repeat: no-repeat;
+background-position: 500px;
+  height:550px;
+  background-color: #EEECEE;
+  color: #6C3;
+}
+#sete{
+  background-image: url("img/05_rapid.png");
+background-repeat: no-repeat;
+background-position: 500px 20px;
+  height:550px;
+  background-color: #6C3;
+  color: #333;
+}
+
+#vuit{
+  background-image: url("img/06_facil.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height:643px;
+  background-color: #FFF;
+  color: #6C3;
+
+}
+  #nove{
+  text-align: center;
+  padding: 0px;
+  height: 150px;
+  background-color: #333;
+
+}
+#nove img{
+  margin: 50px 25px;
+}
+.txtverd{
+  color: #6C3;
+}
+.txtclar{
+  color: #CCC;
+
+}
+a{
+  text-decoration: none;
+}
+a:link{
+color:#CCC;
+}
+a:visited{
+color:#CCC;
+}
+a:hover{
+color: #666;
+}
+a:active{
+color: #6C3;
+}
+.fonsgris{
+  background-color: #EEECEE;
+  margin: 0;
+  padding: 0;
+}
+.fonsclar{
+  background-color: #DDD;
+  margin: 0;
+  padding: 0;
+}
+.centrat{
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+
+}
+.centrat img{
+  width: 100%;
+  height: auto;
+}
+.centrat p{
+  width: 100%;
+}
+.centrat h1{
+  width: 100%;
+  margin-bottom: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.centrat h2{
+  width: 100%;
+  margin-top: 1.2em;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 100;
+}
+.centrat h3{
+  width: 100%;
+}
+.caixa{
+  width: 31%;
+  height: 200px;
+  margin: 1%;
+  padding: 0;
+  float: left;
+}
+#boto{
+  display: block;
+  color: blue;
+  background-color: rgba(255, 0, 0, 0.4);
+  height: 100px;
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.fa{
+  color: #6C3;
+  font-size: 3em;
+}
+#esq{
+  width: 25%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#enlace{
+  width: 100%;
+  background-color: #6C3;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+.kern{
+  letter-spacing: -0.1em;
+}
+#tfn{
+  background-image: url("img/frame-iphone5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 571px;
+  background-color: #DDD;
+  margin: 0;
+  padding: 0;
+  }
+
+#registre{
+
+  width: 240px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 110px;
+
+}
+#rect{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#rect li{
+  display: inline-block;
+  width: 40%;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px 0;
+}
+#google{
+  background-color: red;
+}
+#facebook{
+  background-color: blue;
+}
+form{
+  text-align: center;
+}
+input{
+  width: 200px;
+  height: 35px;
+  margin: 2px;
+}
+
+#checkbox{
+  font-size:0.8em;
+  line-height: 0.9em;
+  margin: 0  auto;
+  padding: 0;
+  width: 90%;
+  text-align: left;
+  }
+#registre p{
+  font-size: 0.8em;
+  line-height: 1.1em;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+h3{
+  text-align: center;
+}
+button{
+  background-color: green;
+}
+#n{
+  background-color: green;
+  margin: 20px 0;
+    border-radius: 4px;
+  }

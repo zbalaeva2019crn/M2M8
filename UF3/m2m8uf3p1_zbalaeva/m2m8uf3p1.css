@@ -1,0 +1,96 @@
+body{
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}
+div{
+  background-color: red;
+  margin-left: : 30px;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+}
+#menu li{
+  display: inline;
+  width: 100%;
+  padding: 40px;
+  height: 30px;
+  margin-left:  30px;
+  text-align: center;
+}
+img{
+  margin:0;
+  padding: 0;
+  background-position: left;
+}
+.bloque{
+  width: 20%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 700px;
+
+}
+.imagen{
+  width: 100%;
+}
+.segon{
+background-color: white;
+  height: 800%;
+}
+#segon img{
+  margin-left: 150px;
+  margin-top: 15px;
+}
+#texto{
+  width: 20%;
+  height: 40%;
+  margin-left: 150px;
+  padding: 0;
+  margin-top:-30px;
+  background-color: white;
+}
+#texto p{
+  font-size: 1em;
+  color: blue;
+  text-align: left;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+}
+.autor{
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+
+}
+#texto img{
+  background-position: left;
+  margin: 35px 0;
+  padding: 0;
+  border-radius: 30px;
+}
+h1{
+  font-size: 1.5em;
+  text-align: left;
+  margin: 15px;
+}
+h3{
+  font-size: 1em;
+  text-align: left;
+  margin: 15px;
+}
+h4{
+  text-align: right;
+  margin-right: 20px;
+}
+#block li{
+  display: inline;
+
+margin: 5px;
+}
+.tercer{
+margin-left: 30px;
+float: left;
+
+#
